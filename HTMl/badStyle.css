@@ -1,0 +1,74 @@
+body	{
+	background-image: url("https://placekitten.com/200/300");
+	color: red;
+	font-size: 500%
+}
+body p	{
+	font-size: 150%;
+	color: purple;
+}
+ul	{list-style-type: none;
+	margin: 0;
+	padding: 0;
+	overflow: hidden;
+	background-color: #333;
+	color: white;
+	position: sticky;
+	top: 0;
+	font-size: 10%;
+
+}
+li	{
+	float: left;
+	display: inline;
+	border-top: 1px solid #bbb;
+	transform: rotate(90deg);
+}
+li a	{
+	display: block;
+	color: white;
+	text-align: center;
+	padding: 20px 16px;
+	text-decoration: none;
+}
+
+li:last-child {
+	border-bottom: 1px solid #bbb;
+	border-top: none;
+}
+
+li a:hover {
+	background-color: #999;
+}
+h1	{ 
+	text-align: center; 
+	color: white;
+	font-size: 300%;
+}
+img {
+	transform: rotate(197deg);
+}
+
+#thor-img, #thor	{
+	transform: rotate(45deg);
+}
+#avengersThanos-img, #avengersThanos	{
+	transform: rotate(90deg);
+}
+#females-img, #females	{
+	transform: rotate(135deg);
+}
+#villians, #villians-img	{
+	transform: rotate(180deg);
+}	
+#ultron	{
+	transform: rotate(225deg);
+}
+td	{
+	transform: rotateX(180deg);
+	font-size: 200%;
+}
+th 	{
+	transform: rotate(33deg);
+	font-size: 700%;
+}

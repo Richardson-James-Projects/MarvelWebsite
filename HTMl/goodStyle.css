@@ -1,0 +1,116 @@
+body	{
+	/* background image retrieved from https://thewallpaper.co/good-images-website-hd-wallpapers-4k-artwork-background-wallpapers-smart-phones-colourful-mac-desktop-images-digital-photos-1920x1080/ */
+	background-image: url("Background.jpg");
+	color: yellow;
+}
+img	{
+	height: 150px;
+}
+
+h1	{ 
+	text-align: center; 
+	color: white;
+	font-size: 300%;
+}
+
+body p	{
+	font-size: 150%;
+	color: blue;
+	padding-top: 30px;
+	padding-bottom: 0px;
+}
+ul	{list-style-type: none;
+	margin: 0;
+	padding: 0;
+	overflow: hidden;
+	background-color: #333;
+	color: white;
+	position: sticky;
+	top: 0;
+}
+li	{
+	float: left;
+	display: inline;
+	border-right: 1px solid #bbb;
+}
+li a	{
+	display: block;
+	color: white;
+	text-align: center;
+	padding: 10px 16px;
+	text-decoration: none;
+}
+
+li:last-child {
+	border-left: 1px solid #bbb;
+	border-right: none;
+}
+li a:hover {
+	background-color: #999;
+}
+th, td	{
+	border-bottom: 1px solid #ffffff;
+	padding: 10px;
+	text-align: center;
+	img-align: center;
+}
+th 	{
+	font-size: 150%;
+}
+table	{
+	border: 5px solid purple;
+	border-collapse: collapse;
+	width: 100%;
+}
+#thor	{
+	height: 10px;
+	padding: 0px;
+}
+#thor-img	{
+	height: 300px;
+	padding-bottom: 0px;
+}
+
+#avengersThanos	{
+	display: block;
+	margin-left: 30%;
+	height: 10px;	
+	padding: 0px;
+}
+#avengersThanos-img	{
+	display: block;
+	margin-left: 30%;
+	height: 300px;
+	padding-bottom: 0px;
+}
+
+#females	{
+	height: 10px;
+	margin-left: 52%;
+	padding: 0px;
+	
+}
+#females-img	{
+	height: 300px;
+	margin-left: 52%;
+	padding-bottom: 0px;
+}
+
+#villians	{
+	height: 10px;
+	padding-top: 0px;
+}
+#villians-img	{
+	height: 300px;
+	padding: 10px;
+	padding-bottom: 0px;
+}
+#ultron	{
+	height: 300px;
+	padding: 10px;
+	padding-bottom: 0px;
+}
+#wakanda {
+	color: blue;
+}
+
